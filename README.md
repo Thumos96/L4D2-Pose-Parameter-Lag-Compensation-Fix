@@ -218,3 +218,6 @@ The boxes cannot be drawn earlier: the server cannot send anything before your s
 | `sm_posesync_trace <ent> [seconds]` | One line per server tick (simulation time, origin, speed, no-interp resets, sequence, cycle, yaw). 0 stops it. |
 | `sm_posesync_profile [seconds]` | Measure the plugin's own CPU time (default 10 s): microseconds per server tick for recording, and per rewound entity for shots. |
 | `sm_posesync_unhide` | Unhide the developer-only animstate debug cvars (`sv_showanimstate`, `cl_showanimstate`, ...). They are also unhidden at every map start. |
+
+## Credits
+Coding, debugging, and optimization were performed with assistance from Anthropic's Claude Opus 5.5.
